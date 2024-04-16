@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: pink;
+    font-family: "Dosis", sans-serif;
+}
+p{
+    display: block;
+    position: relative;
+}
+.card{
+    font-size: 30px;
+    font-weight: 700;
+    align-content: center;
+    padding-left: 19%;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+button,.yes{
+    background: green;
+    color: whitesmoke;
+}
+button.no{
+    background: red;
+    right: 50%;
+}
